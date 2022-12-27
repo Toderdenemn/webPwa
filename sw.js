@@ -1,3 +1,7 @@
 self.addEventListener("install", e=>{
-    console.log("Istall!")
+    e.waitUntil(
+        caches.open("static").then(cache =>{
+            return cache.addAll(["./", "./src/master.css", "./assets/img/android/andlogo192.png"]);
+        })
+    );
 });

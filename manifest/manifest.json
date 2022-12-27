@@ -3,7 +3,7 @@
     "background_color": "#d5d3d2",
     "display": "fullscreen",
     "scope": "/",
-    "start_url": "/pwa.mappy.mn",
+    "start_url": "/",
     "name": "Admin Mappy",
     "short_name": "Mappy",
     "icons": [
